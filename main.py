@@ -1,4 +1,4 @@
-from colorama import Fore, Style
+from colorama import Fore
 import os 
 import time
 
@@ -7,7 +7,6 @@ def centralizar(texto):
     posicao_inicial = (largura_terminal - len(texto)) // 2
     os.system("clear")
     print(" " * posicao_inicial + texto.replace("*"," "))
-
 
 texto = """ 
 ********************************11**DE**NOVEMBRO**DIA**DA**INDEPENDCIA**NACIONAL****************************************************
